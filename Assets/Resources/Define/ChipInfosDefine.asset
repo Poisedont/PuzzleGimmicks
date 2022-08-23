@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62d6d4bf32e0154498a9dc5bc37b6b8b, type: 3}
+  m_Name: ChipInfosDefine
+  m_EditorClassIdentifier: 
+  chipInfos:
+  - name: SimpleChip
+    contentName: SimpleChip
+    color: 1
+    shirtName: 
+  - name: HLineBomb
+    contentName: HLineBomb
+    color: 1
+    shirtName: hB
+  - name: VLineBomb
+    contentName: VLineBomb
+    color: 1
+    shirtName: vB
+  - name: SimpleBomb
+    contentName: SimpleBomb
+    color: 1
+    shirtName: SB
+  - name: RainbowBomb
+    contentName: RainbowBomb
+    color: 0
+    shirtName: RB
+  - name: CrossBomb
+    contentName: CrossBomb
+    color: 1
+    shirtName: XB
+  - name: Compass
+    contentName: Compass
+    color: 0
+    shirtName: CP
+  - name: Compass2
+    contentName: Compass2
+    color: 0
+    shirtName: CP:2
+  - name: KeyDrop
+    contentName: SinkerKey
+    color: 0
+    shirtName: KE
+  - name: TimeBomb
+    contentName: TimeBomb
+    color: 1
+    shirtName: TB
+  - name: Butterfly
+    contentName: Butterfly
+    color: 1
+    shirtName: BF
+  - name: Portion
+    contentName: Portion
+    color: 1
+    shirtName: ??
+  - name: Crystal
+    contentName: Crystal
+    color: 0
+    shirtName: Crys
+  - name: SmokePot
+    contentName: SmokePot
+    color: 0
+    shirtName: Pot
+  - name: HalfIceChip
+    contentName: HalfIceChip
+    color: 1
+    shirtName: Ice1
+  - name: FullIceChip
+    contentName: FullIceChip
+    color: 1
+    shirtName: Ice2
+  - name: HalfIceLineBomb
+    contentName: HalfIceLineBomb
+    color: 1
+    shirtName: IceB1
+  - name: FullIceLineBomb
+    contentName: FullIceLineBomb
+    color: 1
+    shirtName: IceB2

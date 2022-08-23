@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fc96187a7e24da49a0bd42977594fb2, type: 3}
+  m_Name: BlockInfosDefine
+  m_EditorClassIdentifier: 
+  blockInfos:
+  - name: magicBook
+    contentName: magicBook
+    shirtName: MB
+    levelCount: 6
+    chip: 0
+    color: 0
+  - name: cage
+    contentName: cage
+    shirtName: XX
+    levelCount: 1
+    chip: 1
+    color: 0
+  - name: colorBook
+    contentName: colorBook
+    shirtName: CB
+    levelCount: 1
+    chip: 0
+    color: 1
+  - name: Smoke
+    contentName: Smoke
+    shirtName: SM
+    levelCount: 1
+    chip: 0
+    color: 0
+  - name: scroll
+    contentName: scroll
+    shirtName: SC
+    levelCount: 1
+    chip: 0
+    color: 0
+  - name: JewelMold
+    contentName: JewelMold
+    shirtName: JM
+    levelCount: 1
+    chip: 0
+    color: 1
+  - name: Curtain
+    contentName: Curtain
+    shirtName: Cur
+    levelCount: 3
+    chip: 0
+    color: 0
+  - name: BookShelf
+    contentName: BookShelf
+    shirtName: BkSh
+    levelCount: 1
+    chip: 0
+    color: 0
+  - name: Lamp
+    contentName: Lamp
+    shirtName: Lamp
+    levelCount: 1
+    chip: 0
+    color: 0
+  - name: MagicTap
+    contentName: MagicTap
+    shirtName: Tap
+    levelCount: 1
+    chip: 0
+    color: 0
+  - name: Metal
+    contentName: Metal
+    shirtName: Metal
+    levelCount: 1
+    chip: 0
+    color: 0
+  - name: Jewelcase
+    contentName: Jewelcase
+    shirtName: JCase
+    levelCount: 1
+    chip: 0
+    color: 1
+  - name: ColorChanger
+    contentName: ColorChanger
+    shirtName: ClCh
+    levelCount: 1
+    chip: 1
+    color: 0
+  - name: CandyTree
+    contentName: CandyTree
+    shirtName: Tree
+    levelCount: 1
+    chip: 0
+    color: 0
+  - name: Switcher
+    contentName: Switcher
+    shirtName: Swi
+    levelCount: 1
+    chip: 1
+    color: 0

@@ -1,0 +1,435 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5596419007832794844
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5596419007832794847}
+  - component: {fileID: 5596419007832794841}
+  - component: {fileID: 5596419007832794846}
+  - component: {fileID: 9055842051227640299}
+  - component: {fileID: 600845121755228901}
+  - component: {fileID: 2048086032399887250}
+  - component: {fileID: 448517323914467509}
+  m_Layer: 0
+  m_Name: GameCore
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5596419007832794847
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5596419007832794844}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5596419007832794841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5596419007832794844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75555cf7378bbda46b8efbead74941e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_dontDestroyOnLoad: 0
+  contentItems:
+  - item: {fileID: 5889540595786207471, guid: 7785f0b3bc8bd44f88c2111c02786532, type: 3}
+    category: items
+  - item: {fileID: 3198974770190556800, guid: 42fb6680e00374806bda01e8c3ad91b1, type: 3}
+    category: items
+  - item: {fileID: 921388907210985921, guid: ed555e4ee2549dd4ea6d5a2e8a396004, type: 3}
+    category: items
+  - item: {fileID: 7573724001197238846, guid: 70c0bd91954c22540b8a8dfafb40cefa, type: 3}
+    category: items
+  - item: {fileID: 4573623225785259332, guid: ab3f87be88fc3a74682676283df72f6d, type: 3}
+    category: items
+  - item: {fileID: 669399879319122023, guid: 125d2dc7e277a6d4da98624590b3da7c, type: 3}
+    category: items
+  - item: {fileID: 6876454713104859127, guid: 21ba1a1fb2d8db24dad200bdfc813aa0, type: 3}
+    category: items
+  - item: {fileID: 4508718904068449172, guid: 95a17179011ad4116ab251d3f4bb11b4, type: 3}
+    category: simpleChip
+  - item: {fileID: 902631051850413589, guid: dcd01306a151649bfa2eb1fdce868431, type: 3}
+    category: simpleChip
+  - item: {fileID: 2083389672718214107, guid: c3668a536691f456da397233e6ce1a9c, type: 3}
+    category: simpleChip
+  - item: {fileID: 4957352276143525574, guid: 54b1bbd98a5d24f678f51abbcbffe72e, type: 3}
+    category: simpleChip
+  - item: {fileID: 8785946780702765290, guid: 5df50c875d7a64b118ce1a1abacd7ce4, type: 3}
+    category: simpleChip
+  - item: {fileID: 6473067894095513813, guid: 196e08d7cb1a8491887f39401a616f91, type: 3}
+    category: simpleChip
+  - item: {fileID: 2301289347718612066, guid: cc0f62111aaaf1349aa3fe0b7fcbc874, type: 3}
+    category: HLineBomb
+  - item: {fileID: 7025899862169975893, guid: c9f737bf73082b94193e22e156f970c3, type: 3}
+    category: HLineBomb
+  - item: {fileID: 1269269638212950183, guid: e9c7e89034e19c0408486413de613827, type: 3}
+    category: HLineBomb
+  - item: {fileID: 8225230342525970183, guid: a1cc2ecab339ca3409f9cf87aeb58ce0, type: 3}
+    category: HLineBomb
+  - item: {fileID: 6033700002852967346, guid: 33bf82c122e1cbd49af7eb819428e798, type: 3}
+    category: HLineBomb
+  - item: {fileID: 7375748915096062028, guid: c8b855db59726fa44bbab89c0564e237, type: 3}
+    category: HLineBomb
+  - item: {fileID: 1295802807554687100, guid: 1badbcde87edf2a428e6780be7f31e89, type: 3}
+    category: VLineBomb
+  - item: {fileID: 6280579763877104365, guid: dfd8b198d4fac3245afefa2215dae62e, type: 3}
+    category: VLineBomb
+  - item: {fileID: 3220275410494761311, guid: 6d22014aadec3c640b4509ae92b2a4a3, type: 3}
+    category: VLineBomb
+  - item: {fileID: 8718425796039654204, guid: 43d9000d33490384db1ce77da40fce87, type: 3}
+    category: VLineBomb
+  - item: {fileID: 6389542232335927190, guid: 0351795388a61254a8d2aec596c07ddd, type: 3}
+    category: VLineBomb
+  - item: {fileID: 145854809102357186, guid: 1bf7cfce0a976064daf5034ac007f18a, type: 3}
+    category: VLineBomb
+  - item: {fileID: 60718902604658034, guid: 52ebf2b3b9991bf42aea50161feea2d1, type: 3}
+    category: SimpleBomb
+  - item: {fileID: 8272275876489126235, guid: c8f43229bfe2b744ba3dbe7a6b3ea851, type: 3}
+    category: SimpleBomb
+  - item: {fileID: 7870167685256025156, guid: 3ca2a75add5bc8840b0b9cf3307e501f, type: 3}
+    category: SimpleBomb
+  - item: {fileID: 5951491968965225472, guid: 5f811485929a8ae48bf1cf789d29c2c8, type: 3}
+    category: SimpleBomb
+  - item: {fileID: 3246887699604739240, guid: 09ff8dfc7b224ea4c9fdad3b95ab45df, type: 3}
+    category: SimpleBomb
+  - item: {fileID: 4374259196098824058, guid: 283b227245d274b44a8c3332e13e9904, type: 3}
+    category: SimpleBomb
+  - item: {fileID: 4215092913523386430, guid: 0a6c031603c85964280321777d906ec1, type: 3}
+    category: XBomb
+  - item: {fileID: 4954375236426252317, guid: 18ff3652d44004a49bbc2eb39a09c809, type: 3}
+    category: XBomb
+  - item: {fileID: 3904394121536279499, guid: 7ed389f239cfa0c45beba06e2de35102, type: 3}
+    category: XBomb
+  - item: {fileID: 9034132685196236632, guid: 491f2cf0c27bb2d45b6f99398be10003, type: 3}
+    category: XBomb
+  - item: {fileID: 5374831345527031277, guid: 407d2501e52114d4d87fb8ce73dced20, type: 3}
+    category: XBomb
+  - item: {fileID: 7355253815256924790, guid: 5da2e9e245e81e84eb1b68fb161082a8, type: 3}
+    category: XBomb
+  - item: {fileID: 7874083799120318257, guid: 13056646fc61b03428c79aef8beed2b8, type: 3}
+    category: Rainbow
+  - item: {fileID: 7638071405524869343, guid: 1843ebba132d9744fb8488024f3573c3, type: 3}
+    category: Specs
+  - item: {fileID: 9134348347151360927, guid: 71232518995ed6841a3f87b5f8760c87, type: 3}
+    category: Specs
+  - item: {fileID: 193956, guid: a877d6010852dd74a9e732d1eccef9c5, type: 3}
+    category: HammerHit
+  - item: {fileID: 193956, guid: bbd54e17ae727c94ca9a1881072a09cb, type: 3}
+    category: HammerCrossHit
+  - item: {fileID: 193956, guid: 89435cc71ab9cb040b154abcede5705b, type: 3}
+    category: RainbowHit
+  - item: {fileID: 8124605369822564423, guid: 51b33ffab8eab4a66bde9ca2843018d6, type: 3}
+    category: blocks
+  - item: {fileID: 6630814020317835588, guid: c0083a1df4de44aa097501ab321bdba6, type: 3}
+    category: blocks
+  - item: {fileID: 5731993494006148562, guid: 31f266e6a63c5478892300e5f20504c9, type: 3}
+    category: blocks
+  - item: {fileID: 4883958778467538093, guid: de1e85f8ff4ad44b8b51cc1d56507f17, type: 3}
+    category: blocks
+  - item: {fileID: 6920555330252028513, guid: 71fcda56ffaed4868a5ea4ce338d13cd, type: 3}
+    category: blocks
+  - item: {fileID: 2866782415419152954, guid: a1c610f8236b84651883144540dde35e, type: 3}
+    category: blocks
+  - item: {fileID: 2834539943334739227, guid: a787f323ffd9c4f079821010d39b092c, type: 3}
+    category: blocks
+  - item: {fileID: 2434364630229685808, guid: 8cefab1e895f64e18a3b7e9b52a6b461, type: 3}
+    category: blocks
+  - item: {fileID: 7874083799120318257, guid: 9d976a70ff5ee22419d7619351b8576f, type: 3}
+    category: effects
+  - item: {fileID: 1669051135285511981, guid: c006a3a86616c46469b889903f4299eb, type: 3}
+    category: timeBomb
+  - item: {fileID: 3687839816583491071, guid: b768ab97965f5344fabf582f804f5ed8, type: 3}
+    category: timeBomb
+  - item: {fileID: 3135280079809111688, guid: 5e9ef91538faf93418636a601d85cb91, type: 3}
+    category: timeBomb
+  - item: {fileID: 3093084286546614426, guid: 8d045421d4c6d1447a8e5f5bc7fb4686, type: 3}
+    category: timeBomb
+  - item: {fileID: 3760211570634904752, guid: 27eef15f304624847862a5e94a55293b, type: 3}
+    category: timeBomb
+  - item: {fileID: 5142932259507208382, guid: ec8f9dfa1417604449c1731058988323, type: 3}
+    category: timeBomb
+  - item: {fileID: 8649969578387724971, guid: e8d64fdb0a7129f4eb601b59684c7677, type: 3}
+    category: Mold
+  - item: {fileID: 8885625650064215832, guid: b0089fbcdb48ca24696df30295211791, type: 3}
+    category: Mold
+  - item: {fileID: 6955590859589392734, guid: 9331146672bec0b439c30804aaa706bc, type: 3}
+    category: Mold
+  - item: {fileID: 4808465983462632704, guid: 96f03fa98740e6743bf66c6807a686b5, type: 3}
+    category: Mold
+  - item: {fileID: 3007026843064650288, guid: bbdec911f44daad468a2009f5bcf3bd8, type: 3}
+    category: Mold
+  - item: {fileID: 6892581736726619648, guid: 64248ac3c8780134bbdcedff8c9a20b3, type: 3}
+    category: Mold
+  - item: {fileID: 2101305584015828157, guid: 063637a3be238474f9e42c597ffafba8, type: 3}
+    category: effects
+  - item: {fileID: 6903327164972041965, guid: 83d977663585ba14dab46e5a5b636d2a, type: 3}
+    category: effects
+  - item: {fileID: 206540926830803705, guid: b2a5d7a3f887fe04ca75e74782357fa5, type: 3}
+    category: effects
+  - item: {fileID: 9178630229618688968, guid: 381198b199001d64c84cf7a0e9489e06, type: 3}
+    category: effects
+  - item: {fileID: 8425174405807092843, guid: 0a0e4450803842b4cb0c70cc0b831b55, type: 3}
+    category: effects
+  - item: {fileID: 1741442271463083515, guid: 8efcfd4726f207e40a329f007de0cd05, type: 3}
+    category: Climber
+  - item: {fileID: 868316026777607040, guid: 772a9b6ad2664cd439457071df230c25, type: 3}
+    category: Climber
+  - item: {fileID: 5898949361017378658, guid: b8a3e16fdbb705146a51e73a74a5ebc6, type: 3}
+    category: Climber
+  - item: {fileID: 8784197116458652501, guid: a7f3a7f887833394f999f91663702122, type: 3}
+    category: Climber
+  - item: {fileID: 5741320155680541631, guid: f70d8ad24f9040e46a66a70f23a00546, type: 3}
+    category: Climber
+  - item: {fileID: 186535725534517740, guid: 5d36a2c0fcf6c2d4da946579b3d8fb6c, type: 3}
+    category: Climber
+  - item: {fileID: 3620918519258691964, guid: fc3346970a33a0847b42a9674ce891ce, type: 3}
+    category: Portion
+  - item: {fileID: 4779825236576378824, guid: d632063874b9e51408a370276bbb5126, type: 3}
+    category: Portion
+  - item: {fileID: 1463158398931409986, guid: 2e3b54015068ff94bad6ca48c2c31407, type: 3}
+    category: Portion
+  - item: {fileID: 2480273672740406908, guid: d7fd2517c94a0ce48b38bf41738afd0f, type: 3}
+    category: Portion
+  - item: {fileID: 3851214353853364060, guid: 342d37a286df4b04db631372dd783b12, type: 3}
+    category: Portion
+  - item: {fileID: 2978098847224145116, guid: c1bc00fe8e34cb349a88729a7a6b5559, type: 3}
+    category: Portion
+  - item: {fileID: 4678327296526339234, guid: 45ed974b3cc95494cb2da6bcba68e7f6, type: 3}
+    category: Crystal
+  - item: {fileID: 186911376604514714, guid: d5e8fc34de422d6458746d4961c84e4e, type: 3}
+    category: Crystal
+  - item: {fileID: 5984539186672683783, guid: 651382dd503a2ec439bd61e62e91ceb0, type: 3}
+    category: Crystal
+  - item: {fileID: 6495383328187429302, guid: 74cba4da2f6c3104aaac9710f070724e, type: 3}
+    category: Crystal
+  - item: {fileID: 1777966957944931054, guid: 534aaf597a646b14ba2774f51c13d8e6, type: 3}
+    category: Crystal
+  - item: {fileID: 7985334538554538293, guid: b90a2ff3c7e50ae429d26ce434ee7e27, type: 3}
+    category: Crystal
+  - item: {fileID: 74630532027385191, guid: 5001de82f271019458f647399f9426f6, type: 3}
+    category: Crystal
+  - item: {fileID: 4331743214148056757, guid: 80539d647ea5fa849bda995853678489, type: 3}
+    category: blocks
+  - item: {fileID: 7546823551718364667, guid: c31f2af7eb8cf684da087240ad9cc603, type: 3}
+    category: Specs
+  - item: {fileID: 6115198196205278737, guid: 0fb9cc53f75679a4a892de0e821f0828, type: 3}
+    category: Specs
+  - item: {fileID: 4745262020173786080, guid: c0f8e377261539946ba98cba435eafba, type: 3}
+    category: items
+  - item: {fileID: 7275001393546159884, guid: 4f2b92c312d7f494ba03c1769d39b816, type: 3}
+    category: Specs
+  - item: {fileID: 723617807711605686, guid: 11a09a903a24646ccb6c16057d3c5acd, type: 3}
+    category: blocks
+  - item: {fileID: 5576239974177551886, guid: 2b05e5fdae6f175498c698ceb6986b35, type: 3}
+    category: Jewelcase
+  - item: {fileID: 8600192779015750367, guid: eb1a65ee3aa16a346b57710f2c39bca9, type: 3}
+    category: Jewelcase
+  - item: {fileID: 8668466014825542672, guid: 9f9a126a24c74fd47b0c169a06dddaeb, type: 3}
+    category: Jewelcase
+  - item: {fileID: 728534675890551158, guid: 92f66f3d3a1f3894e9bf0f35c7c8ed55, type: 3}
+    category: Jewelcase
+  - item: {fileID: 4751198253971105088, guid: 1fa5880d595db004a8df5a5855b33185, type: 3}
+    category: Jewelcase
+  - item: {fileID: 3322906141163202726, guid: e27444ab0b7dcc34693a7d17e9774a83, type: 3}
+    category: Jewelcase
+  - item: {fileID: 5750783842653180191, guid: f41493d436aa8464c806e6414ca006e3, type: 3}
+    category: effects
+  - item: {fileID: 8489473553993658606, guid: 0ac909e7a2455ec4b92c23ca0fc16334, type: 3}
+    category: Ice
+  - item: {fileID: 381435476300579487, guid: 44a2eb5564f6cf14c8b7218b2181f8f5, type: 3}
+    category: Ice
+  - item: {fileID: 6346395660698895887, guid: bc778bae73ac7d54d8d4461e6617affb, type: 3}
+    category: Ice
+  - item: {fileID: 7939541297118593943, guid: 0eefdc310636a1a48bbe8a284d6b9b1d, type: 3}
+    category: Ice
+  - item: {fileID: 8489473553993658606, guid: 8075d724ba3a46f4d9331027644a913d, type: 3}
+    category: Ice
+  - item: {fileID: 6186380261933266881, guid: 7d5c6274ef0d68742bee024a173f668d, type: 3}
+    category: Ice
+  - item: {fileID: 927823027016784606, guid: 41e98529d268cb04b96c11540cd81b63, type: 3}
+    category: Ice
+  - item: {fileID: 381435476300579487, guid: f194c68431d7c1c4498ba26762f3366d, type: 3}
+    category: Ice
+  - item: {fileID: 6346395660698895887, guid: 70e947232bb2ccc48811ea1498a7141c, type: 3}
+    category: Ice
+  - item: {fileID: 7939541297118593943, guid: af4e755d8a95dd14898b51fd6d7b3696, type: 3}
+    category: Ice
+  - item: {fileID: 8489473553993658606, guid: 8c8fe51b498fed94792c1abda6602ef0, type: 3}
+    category: Ice
+  - item: {fileID: 6186380261933266881, guid: 039945a8e44cb264b87467d10d1f9fd9, type: 3}
+    category: Ice
+  - item: {fileID: 1864411316748265014, guid: 0d61f8a6e5cb94a48a404b011071ea05, type: 3}
+    category: Specs
+  - item: {fileID: 6903327164972041965, guid: 2e6659dc2d8c47b4d97cacc6a223ecdf, type: 3}
+    category: effects
+  - item: {fileID: 6903327164972041965, guid: df664abdacadeea41ac4d758b8158368, type: 3}
+    category: effects
+  - item: {fileID: 9178630229618688968, guid: ace850c73b7a93d49a7e040d53e19cfb, type: 3}
+    category: effects
+  - item: {fileID: 7174721178540383331, guid: 14b26626df0871e4bb2b97f6b301ff5b, type: 3}
+    category: Ice
+  - item: {fileID: 4347308094637317670, guid: 962b1b85e2f09ac4694f0f5430d44abc, type: 3}
+    category: Ice
+  - item: {fileID: 2346181286340368221, guid: e03ef69b0981dbb4284e3d1fd4f0a1bd, type: 3}
+    category: Ice
+  - item: {fileID: 1131202611791674142, guid: d8436626bfbca2841a296294110a5b54, type: 3}
+    category: Ice
+  - item: {fileID: 996620295685794817, guid: 54076aae8159f7841b04b5c241f2c008, type: 3}
+    category: Ice
+  - item: {fileID: 1633232605295309399, guid: f0094cc4a05259d43aaa8e6f46bdf2bf, type: 3}
+    category: Ice
+  - item: {fileID: 2093861745337468967, guid: 8c4a8fb612d2a43488b40858d7b986a6, type: 3}
+    category: Ice
+  - item: {fileID: 4347308094637317670, guid: 4273219e3ae3b424cb7cbf25a8b733f6, type: 3}
+    category: Ice
+  - item: {fileID: 2346181286340368221, guid: 050b7ec4f4fd0f84886839e74eb4c098, type: 3}
+    category: Ice
+  - item: {fileID: 1131202611791674142, guid: 13ea39b9d2b11204b9120f02a2f8af5e, type: 3}
+    category: Ice
+  - item: {fileID: 996620295685794817, guid: ceb1bae512588944886699455f75c782, type: 3}
+    category: Ice
+  - item: {fileID: 1633232605295309399, guid: 7f183609d13b5894d8db487b49feeb31, type: 3}
+    category: Ice
+  - item: {fileID: 4719968065946634450, guid: 2a55a92656ca64242abba246712353af, type: 3}
+    category: items
+  - item: {fileID: 3988113220803044853, guid: 4ecabb1a3d3ef97438e4add856879efc, type: 3}
+    category: items
+  - item: {fileID: 7321533420043945720, guid: b10195ac85607f94091cdbc95390ada0, type: 3}
+    category: Specs
+  - item: {fileID: 1708898690162567426, guid: 4979eddd397eabc48b5e9302a2118a87, type: 3}
+    category: Switch
+  - item: {fileID: 8556970229314850513, guid: 76073dfd5189991409f0cc22b7382d30, type: 3}
+    category: Switch
+  - item: {fileID: 7212411830512125127, guid: dc5e4ff6e3cf20b469a6db202991e296, type: 3}
+    category: Switch
+  - item: {fileID: 728153857710173736, guid: e4e027d282420524a86b3876bab2ce06, type: 3}
+    category: Switch
+  - item: {fileID: 6990999177874295624, guid: 8ee92ab038ac57b408bc097aad3a1745, type: 3}
+    category: Switch
+  - item: {fileID: 9108082614015081729, guid: 1feb3785215d65445ba6614e7c12789f, type: 3}
+    category: Switch
+  - item: {fileID: 6903327164972041965, guid: 1e224a002deed8744917243c35fffced, type: 3}
+    category: effects
+  - item: {fileID: 6903327164972041965, guid: db99d72b27d9d8b46a396c29abd24e73, type: 3}
+    category: effects
+--- !u!114 &5596419007832794846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5596419007832794844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b665d8f55e1bae542a01888d4d7199c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  square_combination: 1
+  chip_acceleration: 20
+  chip_max_velocity: 17
+  swap_duration: 0.2
+  refilling_time: 30
+  dailyreward_hour: 10
+  lifes_limit: 5
+  slot_offset: 0.7
+  music_volume_max: 0.4
+--- !u!114 &9055842051227640299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5596419007832794844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6ab845d45dcb4ca88829650e874ca81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_dontDestroyOnLoad: 0
+  squareCombination: 0
+  chipInfosDefine: {fileID: 11400000, guid: dce50f2514ae73140ba14e70c3f6573e, type: 2}
+  blockInfosDefine: {fileID: 11400000, guid: 032fd5d16e3f7794f9a2bab8f676920c, type: 2}
+  combinationsDefine: {fileID: 11400000, guid: 2fc50fa3f2fdf5246be931465a898324, type: 2}
+  mixDefine: {fileID: 11400000, guid: c92d20a4858a1be4187e6da4e138ee15, type: 2}
+  chipInfos: []
+  blockInfos: []
+  iteraction: 0
+  lastMovementId: 0
+  movesCount: 0
+  swapEvent: 0
+  timeLeft: 0
+  eventCount: 0
+  score: 0
+  isPlaying: 0
+  outOfLimit: 0
+  reachedTheTarget: 0
+  gameForceOver: 0
+  firstChipGeneration: 0
+  matchCount: 0
+  stars: 0
+  colorMask: 000000000000000000000000000000000000000000000000
+  creatingDropsCount: 0
+--- !u!114 &600845121755228901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5596419007832794844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 316a000ed6c32484b9a61536e2aaae5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_dontDestroyOnLoad: 0
+  controlCamera: {fileID: 0}
+--- !u!114 &2048086032399887250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5596419007832794844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16a9e1d52a098684fa1f55d323eab0c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_dontDestroyOnLoad: 0
+  m_listPopup:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &448517323914467509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5596419007832794844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d32dea3bd0f5a94290d80e52f319bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_dontDestroyOnLoad: 0

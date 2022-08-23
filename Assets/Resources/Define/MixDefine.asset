@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57fc88e6e9adb894d87a9f013e526210, type: 3}
+  m_Name: MixDefine
+  m_EditorClassIdentifier: 
+  mixes:
+  - pair:
+      a: RainbowBomb
+      b: SimpleChip
+    function: RainbowBombMix
+  - pair:
+      a: HLineBomb
+      b: HLineBomb
+    function: LineMix
+  - pair:
+      a: HLineBomb
+      b: VLineBomb
+    function: LineMix
+  - pair:
+      a: VLineBomb
+      b: VLineBomb
+    function: LineMix
+  - pair:
+      a: HLineBomb
+      b: SimpleBomb
+    function: CrossSimpleMix
+  - pair:
+      a: VLineBomb
+      b: SimpleBomb
+    function: CrossSimpleMix
+  - pair:
+      a: CrossBomb
+      b: VLineBomb
+    function: CrossLineMix
+  - pair:
+      a: CrossBomb
+      b: HLineBomb
+    function: CrossLineMix
+  - pair:
+      a: CrossBomb
+      b: SimpleBomb
+    function: CrossLineMix
+  - pair:
+      a: CrossBomb
+      b: CrossBomb
+    function: CrossLineMix
+  - pair:
+      a: SimpleBomb
+      b: SimpleBomb
+    function: SimpleMix
+  - pair:
+      a: RainbowBomb
+      b: SimpleBomb
+    function: RainbowBombMix
+  - pair:
+      a: RainbowBomb
+      b: VLineBomb
+    function: RainbowBombMix
+  - pair:
+      a: RainbowBomb
+      b: HLineBomb
+    function: RainbowBombMix
+  - pair:
+      a: RainbowBomb
+      b: CrossBomb
+    function: RainbowBombMix
+  - pair:
+      a: RainbowBomb
+      b: RainbowBomb
+    function: DoubleRainbowMix

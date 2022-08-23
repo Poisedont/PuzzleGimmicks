@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Slot
+  - Piece
+  - Effects
+  - Popup
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Slot
+    uniqueID: 2362027241
+    locked: 0
+  - name: Piece
+    uniqueID: 729622949
+    locked: 0
+  - name: Effects
+    uniqueID: 3411054667
+    locked: 0
+  - name: UI
+    uniqueID: 2229851833
+    locked: 0
+  - name: Popup
+    uniqueID: 3734555967
+    locked: 0
